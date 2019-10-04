@@ -1,0 +1,265 @@
+/* from 571 to 265 */
+
+/* start main rules*/ /*my framwork*/
+
+.container {width:1170px;margin:auto;}
+.clear-fix {clear:both;}
+.my-button {
+    background:none;
+    border:3px solid #32C56A;
+    padding: 10px 20px;
+    color:#32C56A;
+    text-transform:uppercase;
+}
+.txt-cent {text-align:center;}
+.over-hidden {overflow:hidden;}
+.f-left {float:left;}
+h2,h3 {text-transform:uppercase;color:#404040;}
+p {line-height:1.7;color:#a6a6a6;text-align:justify;}
+
+/* end main rules*/
+
+/* start header */
+
+.header .slider{
+    height:600px;
+    background-image: url('../image/slider.jpg');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.header .slider .intro {padding-top:250px;color:#FFFFFF;}
+.header .slider .intro h2 {
+    margin:0 auto;
+    font-size:50px;
+    border-top:2px solid #fff;
+    border-bottom:2px solid #fff;
+    width:700px;
+    padding:5px 0;
+    color:#fff;
+}
+.header .slider .intro button {
+    margin-top:35px;
+    background:none;
+    color:#fff;
+    padding:10px 25px;
+    border: 2px solid #fff;
+    font-weight:bold;
+}
+.header .navbar {background-color:#252F31;}
+.header .navbar h2 {color:#fff;}
+.header .navbar h2 spam {color:#21E289;}
+.header .navbar ul {list-style:none;padding-left:0;float:right;}
+.header .navbar ul li {float:left;padding:18px;text-transform: uppercase;}
+.header .navbar ul li a {text-decoration:none;color:#fff;}
+.header .navbar ul li a:hover , a:active {color:#21E289;}
+
+/* end header */
+
+/* start containt*/
+
+    /* sart features*/
+.features {padding-top:55px;padding-bottom:45px}
+.features .feat {width: 33.3333%; }
+.features .feat p {padding-right:40px;}
+
+    /* end features /
+
+    /* start about-mw */
+
+.about-me {background-color:#F2F2F2;}
+
+.about-me .image {width:33%;}
+.about-me .image img {width:100%;}
+.about-me .info {width:67%;}
+.about-me .info h2 {margin-left:100px;margin-top:33px;}
+.about-me .info > p {margin-left:100px;}
+/*.about-me .info p:last-of-type{margin-top:20px;}*/ /*for knowledge only*/
+
+.about-me .info .hobbies {margin-left:100px;} /*margin:40px 0 0 100px;*/ /*for knowing */
+
+.about-me .info .hobbies .content {width:45%;margin-right:5%}
+.about-me .info .hobbies .content .icons {width:15%;margin-top:20px;color:#32C56A;}
+.about-me .info .hobbies .content .text {width:85%}
+.about-me .info .hobbies .content .text p {margin-top:2px;}
+    /* end about-me */
+
+    /* start my skills */
+
+.my-skills .skills {width:45%;margin:45px 5% 45px 0;}
+.my-skills .skills h2 {margin-bottom: 30px;}
+.my-skills .skills p:last-of-type {margin-top:25px;}
+.my-skills .skills button {margin-top:30px;}
+.my-skills .progress {width:50%;padding: 70px 0;}
+.my-skills .progress div {background-color:#f2f2f2;height:25px;margin-bottom:25px;}
+.my-skills .progress span{
+    background-color:#2dcc70;
+    height:25px;
+    display:block;
+    color:#fff;
+    text-align:right;
+    line-height:25px;
+    font-weight:bold;
+}
+    /* end my skills */
+
+    /* start resume */
+
+.resume {background-color:#F2F2F2;padding-top:45px;padding-bottom:60px;}
+.resume p {padding:0 60px;}
+.resume button {margin-top:20px;}
+
+    /* end resume */
+
+    /* start my education */
+
+.my-education .main {width:45%;margin:60px 5% 0 0;}
+.my-education .main h2 {margin-bottom: 30px;}
+.my-education .main p:last-of-type {margin-top:25px;}
+.my-education .exp {width:50%;margin-top:90px;margin-bottom:50px;}
+.my-education .exp h3 {margin-bottom:15px;margin-top:50px;}
+.my-education .exp div {color:#a6a6a6;}
+.my-education .exp span{
+    background-color: #32C56A;
+    text-transform:uppercase;
+    color:#fff;
+    padding:5px;
+    display:inline-block;
+    margin-top:10px;
+}
+.my-education .exp hr{
+    background-color:#cccccc;
+    height:1px;
+    border:0;
+    margin:20px 0;
+}
+/*
+.my-education .exp spam:first-of-type{
+    color:#a6a6a6;
+}
+.my-education .exp spam:last-of-type{
+    background-color: #32C56A;
+    text-transform:uppercase;
+    color:#fff;
+    padding:5px;
+    display:inline-block;
+}
+ */  /*For knowledge*/
+
+    /* end my education */
+
+    /* start my work */
+
+.my-work .container hr {background-color:#cccccc;height:1px;border:0;}
+.my-work .main {width:45%;margin:60px 5% 0 0;}
+.my-work .main h2 {margin-bottom: 30px;} 
+.my-work .main p:last-of-type {margin-top:25px;}
+.my-work .exp {width:50%;margin-top:90px;margin-bottom:50px;}
+.my-work .exp h3 {margin-bottom:15px;margin-top:50px;}
+.my-work .exp div {color:#a6a6a6;}
+.my-work .exp span{
+    background-color: #32C56A;
+    color:#fff;
+    padding:5px 8px;
+    display:inline-block;
+    margin-top:10px;
+}
+.my-work .exp hr{
+    background-color:#cccccc;
+    height:1px;
+    border:0;
+    margin:20px 0;
+}
+
+    /* end my work */
+
+    /* start testimonies */
+
+.testimonies {background-color:#F2F2F2;padding:60px 0;}
+.testimonies q {color:#a6a6a6;font:italic bold 1.3em/1.7em Times New Roman, tahoma;}
+/*
+    line-height:1.7;
+    font-size:1.3em;
+    font-weight:bold;
+    font-style:italic;
+    */
+.testimonies h3 {padding: 20px 0;}
+.testimonies ul {list-style:none;padding-left:0;}
+.testimonies ul li {
+    border:2px solid #32C56A;
+    width:10px;
+    height:10px;
+    display:inline-block;
+    margin-left:5px;
+}
+.testimonies ul li:active,.testimonies ul li:hover {background-color:#32C56A;cursor: pointer;}
+
+    /* end testimonies */
+
+    /* start portfolio */
+
+.portfolio {padding-top: 60px;padding-bottom:70px;}
+.portfolio h2 {padding-bottom:15px;}
+.portfolio p {padding-bottom:40px;}
+.portfolio .our-work div {float:left;}
+.portfolio .our-work div img {margin-right:30px;margin-bottom:30px;}
+
+    /* end portfolio */
+
+/* end containt*/
+
+/* start footer */
+
+    /* start contact me */
+
+.contact {background-color:#252F31;}
+.contact .info {width:48%;margin:55px 0;margin-right:2%;}
+.contact .info h2 {color:#f6fffe;}
+.contact .info p {margin:30px 0;}
+.contact .info strong {color:#f6fffe;margin-right:25px;}
+.contact form{
+    width:43%;
+    margin-top:105px;
+    margin-bottom:70px;
+    margin-left:5%;
+}
+.contact form label {display:block;color:#cccccc;margin-bottom:15px;}
+.contact form input[type="text"]{
+    background-color:#4b5557;
+    border:none;
+    width:100%;
+    color:#fff;
+    height:45px;
+    margin-bottom:35px;
+    font-size:20px;
+}
+.contact form textarea{
+    background-color:#4b5557;
+    border:none;
+    width:100%;
+    color:#fff;
+    height:250px;
+    font-size:20px;
+}
+.contact form input[type="submit"]{
+   background-color:#191e22;
+    color:#fff;
+    text-transform:uppercase;
+    padding: 15px 25px;
+    border:none;
+    margin-top:25px;
+}
+
+    /* end contact me */
+
+    /* start copyright */
+
+.copyright {background-color:#191E22;color:#4a5456;padding:35px 0;}
+.copyright .container div {margin-bottom:20px;text-transform:uppercase;}
+.copyright .container i {margin-right:10px;}
+.copyright .container i:hover {color:#fff;}
+
+    /* end copyright */
+
+/* end footer */
